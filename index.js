@@ -9,11 +9,10 @@ const showLib = new ShowLibrary({
   store: '/Users/zcecc22/Documents/shows'
 })
 
-showLib.update_all_shows_info(function (err) {
+showLib.update_all_episodes_paths(function (err) {
   console.log(err)
 })
 
-showLib.update_all_shows_paths(function (err, val) {
-  console.log(err)
-  console.log(val)
-})
+// showLib.update_all_episodes_info(function (err) {
+//   console.log(err)
+// })

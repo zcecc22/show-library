@@ -11,7 +11,8 @@
   "dependencies": {
     "async": "^2.0.0-rc.6",
     "mysql": "^2.11.1",
-    "node-tvdb": "^2.0.4"
+    "node-tvdb": "^2.0.4",
+    "recursive-readdir": "^2.0.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
